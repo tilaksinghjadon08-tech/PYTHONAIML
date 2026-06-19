@@ -313,16 +313,40 @@ x=2
 #     print("else:",counter)
 
 
-block = int (input ("enter a no. of blocck :"))
-count = 1
+# block = int (input ("enter a no. of blocck :"))
+# count = 1
 
-while (block-count)>0:
-    count+=1
-    block-=count
+# while (block-count)>0:
+#     count+=1
+#     block-=count
     
     
     
-print("hieght of blocks ",count)    
-    
+# print("hieght of blocks ",count)    
     
 
+
+# start list 
+
+# no=[1,2,3,4,]
+# print(no,type(no))
+
+
+# print(no[0])
+# print(no[1])
+# print(no[2])
+# print(no[3])
+
+# no[0]=100
+# print(no)
+
+
+
+number = [10,5,7,2,1]
+print ("original list contents:",number)
+number[0]=111
+print ("new list contents:",number)
+
+print("original list contents:",number)
+number[1]=number[4]
+print ("new list contents:",number)
