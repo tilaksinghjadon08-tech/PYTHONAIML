@@ -342,11 +342,44 @@ x=2
 
 
 
-number = [10,5,7,2,1]
-print ("original list contents:",number)
-number[0]=111
-print ("new list contents:",number)
+# number = [10,5,7,2,1]
+# print ("original list contents:",number)
+# number[0]=111
+# print ("new list contents:",number)
 
-print("original list contents:",number)
-number[1]=number[4]
-print ("new list contents:",number)
+# print("original list contents:",number)
+# number[1]=number[4] #copying value of the fifth element to ht sacond
+# print ("new list contents:",number)
+  
+
+# print(number)
+# print(len(number))
+
+# del number [1]
+# print(number)
+# print(len(number))
+
+# # for print dynamic len of 0 index value 
+# print(number[len(number)*-1])
+ 
+# list=[1,2,3,4,5]
+# print(len(list))
+# del list[-1]
+# print(list)
+list1= [1,2,3,4,5]
+# replaced = int (input ("entre a no.:"))
+# list1[int(len(list1)/2)]= replaced
+
+# print(list1)
+# print(len(list1))
+
+list1.append(6)
+print(list1)
+print(f'length of list1:{len(list1)}')
+
+list1.insert(0,111)
+print(list1)
+print(f'length of list1:{len(list1)}')
+
+
+
