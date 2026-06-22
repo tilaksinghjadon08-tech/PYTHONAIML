@@ -373,13 +373,36 @@ list1= [1,2,3,4,5]
 # print(list1)
 # print(len(list1))
 
-list1.append(6)
-print(list1)
-print(f'length of list1:{len(list1)}')
+# list1.append(6)
+# print(list1)
+# print(f'length of list1:{len(list1)}')
 
-list1.insert(0,111)
-print(list1)
-print(f'length of list1:{len(list1)}')
+# list1.insert(0,111)
+# print(list1)
+# print(f'length of list1:{len(list1)}')
+
+
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# for i in range(len(my_list)):
+#     print(my_list[i])
+
+# mylist=[]
+# for count in range(1,11,1):
+#     mylist.append(count)
+# print(mylist)    
+
+
+
+
+# or count in range(1,11):
+#     mylist.insert(count-1,count)
+# print(mylist)  
+
+mylist=[10,20,30,40,50,60,70,80,90,100]
+for i in range(len(mylist)):
+    mylist[i]+=1
+    print(mylist)    
+
 
 
 
