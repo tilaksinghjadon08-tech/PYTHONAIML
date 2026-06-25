@@ -366,7 +366,7 @@ x=2
 # print(len(list))
 # del list[-1]
 # print(list)
-list1= [1,2,3,4,5]
+# list1= [1,2,3,4,5]
 # replaced = int (input ("entre a no.:"))
 # list1[int(len(list1)/2)]= replaced
 
@@ -398,10 +398,36 @@ list1= [1,2,3,4,5]
 #     mylist.insert(count-1,count)
 # print(mylist)  
 
-mylist=[10,20,30,40,50,60,70,80,90,100]
-for i in range(len(mylist)):
-    mylist[i]+=1
-    print(mylist)    
+# mylist=[10,20,30,40,50,60,70,80,90,100]
+# for i in range(len(mylist)):
+#     mylist[i]+=1
+# print(mylist)    
+
+# my_list = [10,20,30,40,50,60,70,80,90,100]
+# count=0
+# for num in my_list:
+#     count+= num
+# print("the total sum of the list is",count)    
+       
+# a=10
+# b=20
+# c=30
+# print("a:",a)
+# print("b:",b)
+
+# a,b,c=b,c,a
+# print("a:",a)
+# print("b:",b)
+# print("c:",c)
+
+
+# my_list = [10,1,8,3,5]
+
+# my_list[0],my_list[4]=my_list[4],my_list[0]
+# my_list[1],my_list[3]=my_list[3],my_list[1]
+
+# print(my_list)
+
 
 
 
