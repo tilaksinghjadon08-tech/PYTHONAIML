@@ -431,4 +431,47 @@ x=2
 
 
 
+# my_list =[8,10,6,2,4,9,7,5,3,1]
+# print("list befor sort=",my_list)
+# count=0
+# for index1 in range(len(my_list)-1):
+#     for index in range(len(my_list)-1-index1):
+#         count+=1
+#         if (my_list[index]>my_list[index+1]):
+            
+#             my_list[index],my_list[index+1]=my_list[index+1],my_list[index]
+# print("final list after sort=",my_list)     
+# print("my program has run for :",count,"times")    
 
+
+# my_list = [8,10,6,2,4]
+# swapped= True
+# count=0
+# while swapped:
+#     swapped=False
+#     for i in range(len(my_list)-1):
+#         count+=1
+#         if my_list[i]>my_list[i+1]:
+#             swapped=True
+#             my_list[i],my_list[i+1]=my_list[i+1],my_list[i]
+# print(my_list)
+# print("loops are running for :",count,"times")
+
+
+
+# my_list = [8,10,6,2,4]
+# my_list.sort()
+# print(my_list)
+
+my_list=[5,3,1,2,4]
+count=0
+for i in range(0,len(my_list)//2):
+    count+=1
+    my_list[i],my_list[(-1*(i+1))]=my_list[(-1*(i+1))],my_list[i]
+print(my_list)
+print(count)
+     
+
+
+  
+    

@@ -45,18 +45,18 @@ beatles.append("paul Mccartney")
 beatles.append("george harrsion")
 i=0
 
-# for i in beatles:
-#     if beatles.count == 3:
-#        beatles.append("stu sutcliffe")
-#     else:
-#          beatles.append("pete best")
-print(beatles)   
-
-for i in range(2): 
-    if i==0:
+for i in beatles:
+    if (beatles.count == 3):
         beatles.append("stu sutcliffe")
     else:
         beatles.append("pete best")
+print(beatles)   
+
+# for i in range(2): 
+#     if i==0:
+#         beatles.append("stu sutcliffe")
+#     else:
+#         beatles.append("pete best")
         
 del beatles[-1]
 del beatles[-1]
