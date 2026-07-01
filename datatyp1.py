@@ -463,14 +463,107 @@ x=2
 # my_list.sort()
 # print(my_list)
 
-my_list=[5,3,1,2,4]
-count=0
-for i in range(0,len(my_list)//2):
-    count+=1
-    my_list[i],my_list[(-1*(i+1))]=my_list[(-1*(i+1))],my_list[i]
-print(my_list)
-print(count)
-     
+# my_list=[5,3,2,4]
+# count=0
+# for i in range(0,len(my_list)//2): #how to find (-)index heer is the formula = (-1*(index-1))
+#     count+=1
+#     my_list[i],my_list[(-1*(i+1))]=my_list[(-1*(i+1))],my_list[i]
+# print(my_list)
+# print(count)
+
+# lst=["a","D","A","M"] #ascii value of A=65,a=97 because of this the a>A
+# lst.sort()
+# print(lst)
+
+# print("A">"a")     
+
+# a=3
+# b=1
+# c=2
+# lst=[a,c,b]
+# lst.sort()
+# print(lst)
+
+
+# a="A"
+# b="B"
+# c="C"
+# d="a"
+# lst=[a,b,c,d]
+# lst.reverse()
+# print(lst)
+
+# lst1=[1,3,5]
+# lst2=[4,7,8]
+# lst2=lst1
+# lst1[0]=2
+# print(lst2)
+
+# lst1=[1,2,3,4]
+# lst2=lst1[0:2]
+# lst1[0]=2
+# print(lst2)
+# print(lst1)
+
+# my_list=[10,8,6,4,2]
+# new_list=my_list[1:3]
+# print(my_list)
+
+# my_list=my_list[1:-1]
+# print(new_list_list)
+
+# my_list=my_list[-1:1]
+# print(my_list)
+
+# lst=[10,8,6,4,2]
+# del lst[:]
+# print(lst)
+
+# lst=[0,3,12,8,2]
+# print(5 in lst)
+# print(5 not in lst)
+# print(12 in lst)
+
+lst=[3,11,5,1,9,7,15,13]
+largestno=lst[0]
+# for i in lst:
+#     if largestno<i:
+#         largestno=i
+# print(largestno)
+
+# for i in range(1,len(lst)):
+#     if largestno < lst[i]:
+#         largestno=lst[i]
+# print(largestno)        
+
+
+# lst=[]
+# for i in range(2,31,2):
+#     lst.append(i)
+# print("list=",lst)
+
+lst=[3,11,5,1,9,7,15,13]
+number =0
+for number in range(len(lst)):
+    if lst[number]==5 :
+        print(number)
+        break
+    # if number <6 and number>4:
+    #     print(number)
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
 
 
   
