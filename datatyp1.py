@@ -80,7 +80,7 @@
 # print("a<=b:",a<=b)
 # print("a>=b:",a>=b)     
 
-x=2
+# x=2
 
 # print(x<2 and x<4)
 # print(x<2 or x<6)
@@ -89,14 +89,14 @@ x=2
 # y=3
 # print(x is y)
 # print(x is not y)
-
 # x=["marurti","BMW"]
 # y=["marurti","BMW"]
 # z=x
 # print(x is y)
 # print(x is z)
 # print(x is not y)
-# print(x is not z)
+# print(x is not z
+
 
 # x=str(input("give a value of a="))
 # y=str(input("give a value of b="))
@@ -524,8 +524,8 @@ x=2
 # print(5 not in lst)
 # print(12 in lst)
 
-lst=[3,11,5,1,9,7,15,13]
-largestno=lst[0]
+# lst=[3,11,5,1,9,7,15,13]
+# largestno=lst[0]
 # for i in lst:
 #     if largestno<i:
 #         largestno=i
@@ -542,14 +542,99 @@ largestno=lst[0]
 #     lst.append(i)
 # print("list=",lst)
 
-lst=[3,11,5,1,9,7,15,13]
-number =0
-for number in range(len(lst)):
-    if lst[number]==5 :
-        print(number)
-        break
+# lst=[3,11,5,1,9,7,15,13]
+# number =0
+# for number in range(len(lst)):
+#     if lst[number]==5 :
+#         print(number)
+#         break
     # if number <6 and number>4:
     #     print(number)
+
+
+# if(True):
+#     if(True):
+#         print(0)
+#     if(True):
+#         print(1)
+# else:
+#     print(2)
+
+
+# csv="rahul,22,bhopal,engineer"
+# part=csv.split(',')
+# print(part)
+# rejoined = '|'.join(part)
+# print("rejoined:",rejoined)
+
+# print('hello123'.isalnum())
+# print('hello123@'.isalnum())
+# print('1234'.isdigit())
+# print('python'.isalpha())
+# print(" ".isspace())
+
+
+# #start and end check
+# email="student1234@gmail.com"
+# print(email.endswith('.com'))
+# print(email.startswith('stu'))
+
+# a,b,c=input("enter a no.=").split(",")
+
+# print("thank for input",a,b,c)
+
+
+# name,marks,rank='anita',92.576,3
+# print(name,marks,rank)
+
+# #basic
+# print(f'hello,{name}!')
+
+# #format number 
+# print(f'marks: {marks:.2f}')
+# print(f'marks: {marks:.0f}')
+# print(f'count:{1000000:,}')
+
+# #padding and aligment
+# print(f'{name:<15}|{marks:>8.2f}|rank:{rank}')
+
+# name="tilak singh jadon "
+# print(f'{name:<15}|{marks:>8.2f}|rank:{rank}')
+
+# price ,gst=500,0.18
+# print(f'price:rs.{price}|GST:Rs.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
+
+
+# first_name,last_name=input("Name:  ").split(" ")
+# age=int(input("Age:  "))
+# city=(input("City: "))
+# skill=input("skill: ")
+
+# print('-'*42)
+# print(f'| NAME  : {first_name+ last_name:<32}|\n| AGE   : {age:<32}|\n| CITY  : {city:<32}|\n| SKILL : {skill:<32}|')
+# print('-'*42)
+
+# largest_number=-999
+# number=int(input("enter a no.:"))
+# while number!=-1:
+#     if number>largest_number:
+#         largest_number=number
+#     number=int(input("entre a no. or type-1 to stop:"))
+# print("the largest number is:",largest_number)        
+
+
+# power=1
+# for expo in range(16):
+#     print("2 to the power of",expo,"is",power)
+#     power*=2
+
+lst=[1,2,3,4,5]
+print(len(lst))
+lst.remove(5)
+print(lst)
+lst[2]=int(input("enter a replace no. :"))
+print(lst)
+
 
 
 
