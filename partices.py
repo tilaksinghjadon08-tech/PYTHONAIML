@@ -68,9 +68,4 @@
 num=int(input("enter a number :"))
 # for j in range (1,11):
 #     print(f'{num}*{j}={num*j}')
-j=2
-if j<11:
-    print(f'{num}*{j}={num*j}')
-else:
-    pass
 

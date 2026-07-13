@@ -628,12 +628,107 @@
 #     print("2 to the power of",expo,"is",power)
 #     power*=2
 
-lst=[1,2,3,4,5]
-print(len(lst))
-lst.remove(5)
+# lst=[1,2,3,4,5]
+# print(len(lst))
+# lst.remove(5)
+# print(lst)
+# lst[2]=int(input("enter a replace no. :"))
+# print(lst)
+
+# lst=[5,4,3,2,1]
+# print(len(lst))
+# print(lst)
+
+# lst.append(6)
+# print(len(lst))
+# print(lst)
+
+# lst.insert(0,222)
+# print(len(lst))
+# print(lst)
+
+
+# lst=[1,2,3,4,5,6,7,8,9,10]
+# for index in lst:
+#     print(index)
+
+# index = 0
+# while index<len(lst):
+#     print(lst[index])
+#     index+=1
+
+
+# lst=[]
+# i=1
+# # for index in range(1,11):
+# #     lst.append(index)
+# #     i+=1
+# # print(lst)    
+# # print(i)
+   
+        
+# while i<11:
+#     lst.append(i)
+#     i+=1
+# print(lst)
+
+
+lst=[10,20,30,40,50,60,70,80,90,100]
+# lst2=[]
+# for index in lst:
+#     i=index+1
+#     lst2.append(i)
+# print(lst2)
+# sum=0
+# for index in lst:
+#     sum+=index
+# # print(sum)    
+
+# lst=[]
+# for i in range(0,10):
+#     num=int(input("Enter a no.="))
+#     i=num
+#     lst.append(i)
+# print(lst)    
+
+# a=10
+# b=20
+
+# # print("a:",a)
+# # print("b:",b)
+
+# # print("-------")
+
+# # temp=b
+# # b=a
+# # a=temp
+
+# # print("a:",a)
+# # print("b:",b)
+
+# a,b=b,a
+
+# print("a:",a)
+# print("b:",b)
+
+lst=[10,2,3,4,5,6,7,8,9,10]
 print(lst)
-lst[2]=int(input("enter a replace no. :"))
+lst[0],lst[1]=lst[1],lst[0]
 print(lst)
+
+
+
+
+
+    
+
+    
+
+
+    
+ 
+
+
 
 
 
