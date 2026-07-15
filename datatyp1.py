@@ -673,7 +673,7 @@
 # print(lst)
 
 
-lst=[10,20,30,40,50,60,70,80,90,100]
+# lst=[10,20,30,40,50,60,70,80,90,100]
 # lst2=[]
 # for index in lst:
 #     i=index+1
@@ -711,10 +711,98 @@ lst=[10,20,30,40,50,60,70,80,90,100]
 # print("a:",a)
 # print("b:",b)
 
-lst=[10,2,3,4,5,6,7,8,9,10]
-print(lst)
-lst[0],lst[1]=lst[1],lst[0]
-print(lst)
+# lst=[10,2,3,4,5,6,7,8,9,10]
+# print(lst)
+# lst[0],lst[1]=lst[1],lst[0]
+# print(lst)
+
+# lst=[1,2,3,4,5]
+# print(lst)
+# count=0
+# swapped = False
+# for index in range(len(lst)-1):
+#     for index_inner in range(len(lst)-1-index):
+#         if lst[index_inner]>lst[index_inner+1]:
+#             lst[index_inner],lst[index_inner+1]=lst[index_inner+1],lst[index_inner]
+#         count+=1
+#         if not swapped:
+#             break
+# print("sorted list=",lst)
+# print("count=",count)
+
+
+'''
+dry run
+current list= [8,6,2,4,10]
+
+
+
+
+index(0-3)      0
+index_inner(0-3)0 1 2 3
+'''
+# if[]:
+#     print("yes") #interviwe qusetion
+# else:
+#     print("no")
+
+# lst=[1,2,3,4,5]
+# lst.reverse()
+# print(lst)
+# lst1=["D","A","C","Z"]
+# lst1.sort()
+# print(lst1)
+
+
+# my_list=[0,13,12,4]
+# print(5 in my_list)
+# print(5  not in my_list)
+# print(12 in my_list)
+
+# row=[]
+# for i in range(8):
+#     row.append("white_pawn")
+# print(row)    
+
+#list corperhension
+
+# row=["white_pawn" for i in range(8)]
+# print(row)
+
+
+# squares = [x**2 for x in range (10)]
+# print(squares)
+
+
+# # tows = [2**i for i in range (8)]
+# # print(tows)
+
+# odds=[x for x in squares if x%2!=0]
+# print(odds)
+
+
+
+board=[]
+for i in range(8):
+    row =["Empty" for i in range(8)]
+    board.append(row)
+print(board)    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
