@@ -789,14 +789,19 @@ index_inner(0-3)0 1 2 3
 # print(board)    
 
 
-print("checking branch changes!")
-print("checking branch changes!")
+# print("checking branch changes!")
+# print("checking branch changes!")
 
 
     
-
-
-
+lst=[2,2,2,3,4,2,6,4,4,5,9]
+new_list=[]
+for index in lst:
+    if index not in new_list:
+        new_list.append(index)
+        
+    
+print(new_list)        
 
 
 
