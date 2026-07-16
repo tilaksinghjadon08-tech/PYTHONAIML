@@ -782,11 +782,15 @@ index_inner(0-3)0 1 2 3
 
 
 
-board=[]
-for i in range(8):
-    row =["Empty" for i in range(8)]
-    board.append(row)
-print(board)    
+# board=[]
+# for i in range(8):
+#     row =["Empty" for i in range(8)]
+#     board.append(row)
+# print(board)    
+
+
+print("checking branch changes!")
+
 
     
 
