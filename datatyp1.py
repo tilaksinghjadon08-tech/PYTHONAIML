@@ -792,42 +792,250 @@ index_inner(0-3)0 1 2 3
 # print("checking branch changes!")
 # print("checking branch changes!")
 
+# board[0][0]="Rook"
+# board[0][7]="Rook"
+# board[7][0]="Rook"
+# board[7][7]="Rook"
 
+
+# board[0][1]="knight"
+# board[0][6]="knight"
+# board[7][1]="knight"
+# board[7][6]="knight"
+
+# board[0][2]="bishop"
+# board[0][5]="bishop"
+# board[7][2]="bishop"
+# board[7][5]="bishop"
+
+
+# for i in range(len(board)):
+#     print(board[i])
     
-lst=[2,2,2,3,4,2,6,4,4,5,9]
-new_list=[]
-for index in lst:
-    if index not in new_list:
-        new_list.append(index)
-        
+# temp=[[0.0 for h in range(24)]for d in range(31)]
+# random=[12,34,56,78,89,12,34,56,78,89,12,34,56,78,89,12,34,56,78,89,12,34,56,78,89,12,34,56,78,89,10]
+# print(len(random))
+      
+
+
+# for i in range(len(temp)):
+#     temp[i][11]=random[i]
+
+# num=1
+# for i in range(len(temp)):
+#     print(num,"=",temp[i])
+#     num+=1
+
+
+# highest_temp=0
+# for i in range(len(temp)):
+#     for j in range(len(temp[i])):
+#      if highest_temp<temp[i][j]:
+#         highest_temp=temp[i][j]
+# print(highest_temp)   
+
+# lowest=9999
+# for i in range(len(temp)):
+#    for j in range(len(temp[i])):
+#       if lowest>temp[i][j]:
+#          lowest=temp[i][j]
+# print("lowest=",lowest)
+
+# average_temp=0
+ 
+# for i in range(len(temp)):
     
-print(new_list)        
+#     average_temp+=temp[i][11]
+# print("average temp=",average_temp/31)   
 
 
 
+# room=[[[False for r in range(20)]for f in range(15)]for b in range(3)]
+
+# for b_index in range(len(room)):
+#     print("building=",b_index+1)
+#     for f_index in range(len(room[b_index])):
+#         print("floor:",f_index+1)
+#         print(room[b_index][f_index])
+
+# room[1][9][13]= True
+# room[0][4][1]= True
 
 
+# room[2][14][0]=True
+# room[2][14][1]=True
+# room[2][14][2]=True
+# room[2][14][3]=True
+# room[2][14][4]=True
+# room[2][14][5]=True
 
 
+# temp=-1
+# for rooms_index in range(len(room[2][14])):
+#     if room[2][14][rooms_index]==False:
+#         temp=rooms_index
+#         break
 
+# if temp== -1:
+#     print("No rooms available")
+# else:
+#     print(f'{temp+1}th room is available')
 
+# def is a name of key fo fumction 
+# def message():
+#     print("entre a value:")
+#     a = int(input())
+#     print(a)
 
+# message()
+# message()
+# message()
 
+# if we call 3 times of this by def funtion 
 
-
-
-
-
-    
-
-    
-
-
-    
+# print("Enter a no.")
+# a=int(input())
+# print(a)
+ 
+# print("Enter a no.")
+# b=int(input())
+# print(b)
+ 
+# print("Enter a no.")
+# c=int(input())
+# print(c)
  
 
+# def message():
+#     print("entre a value:")
+#     return
+#     a = int(input())
+    
+# a=message()
+
+# print(message())
+
+# message()
 
 
+
+# def hello(n):# defining funtion 
+#     print("Hello,",n)#body of the function
+
+# name = input("Enter a name=")
+# hello(name)#calling the function
+
+
+# def message(num):
+#     print("number;",number)
+#     print("num:",num)
+
+# number=1234
+# message(1)
+# print(number)
+
+
+# def message(what,number):
+#     print("enter",what,"number",number)
+
+# message("telephone",11)
+# message("price",5)
+# message("number","number")
+
+
+# def print_grade(name,marks):
+#     grade=""
+#     if marks<50:
+#         grade="D"
+#     elif marks<=0:
+#         grade="F"    
+#     elif marks<60:
+#         grade="C"
+#     elif marks<75:
+#         grade="B"
+#     elif marks<90:
+#         grade="A"
+#     elif marks>90:
+#         grade="A+"
+#     print(f'hello {name}, your Grade from {marks} is {grade}!')        
+
+# print_grade("kaushal",80)
+# print_grade("dipesh",0)
+# print_grade("harshit",70)
+# print_grade("luvkush",60)
+# print_grade("shivani",95)
+# print_grade("khushi",55)
+# print_grade(55,"kiran")
+            
+# def introduction(first_name,last_name="NA"):
+#     print("hello , my name is ",first_name,last_name)
+
+# introduction(first_name="james",last_name="bond")
+# introduction(last_name="bond",first_name="james")
+# introduction("bond","james")
+# introduction("tilak")
+# introduction("Tilak","jadon")
+
+
+# def adding(a,b,c):
+#     print(a,"+",b,"+",c,"=",a+b+c)
+
+# adding(1,2,3)
+# adding(c=1,a=2,b=3)
+# adding(3,c=1,b=2)
+# adding(c=1,2,b=3)#error
+# adding(3,a=1,b=2)#error
+
+# def happy_new_year(wishes = True):
+#     print("three...")
+#     print("two....")
+#     print("one....")
+#     if not wishes:
+#         return
+#     print("happy new year!")
+# happy_new_year()
+# happy_new_year(False)
+
+# def boring_function():
+#     return 123
+# x=boring_function()
+
+# print("the boring function has retured its result . It's :",x)
+
+    
+# value=None
+# if value is None:
+#     print("Sorry , you don't carry any value")
+
+# value=(input("Enter None:"))
+# if value =="":
+#     value=None
+# print(value)
+# print(type(value))
+
+
+# def strange_function(n):
+#     if (n%2==0):
+#         return True
+    
+# print(strange_function(2))
+# print(strange_function(1))    
+ 
+# def list_sum(lst):
+#     s=0
+#     for elem in lst:
+#         s+=elem
+#     return s
+# print(list_sum([5,4,3]))    
+
+def strange_list_fun(n):
+    strange_list=[]
+    for i in range(0,n):
+        strange_list.insert(0,i)
+
+    return strange_list
+
+print(strange_list_fun(5))    
 
 
 
