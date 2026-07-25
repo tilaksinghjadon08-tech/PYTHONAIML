@@ -79,7 +79,7 @@
 # print(new_list)   
 
 
-my_list=[3,11,5,17,1,9,7,15,13]
+# my_list=[3,11,5,17,1,9,7,15,13]
 # largest_number=0
 
 # for i in my_list:
@@ -88,5 +88,22 @@ my_list=[3,11,5,17,1,9,7,15,13]
 # print("the largest no. is:",largest_number)        
 
 
-my_list.sort()
-print("the largest number is=",my_list[8])
+# my_list.sort()
+# print("the largest number is=",my_list[8])
+
+a="My name is Sanjay Singh Jadon and Iam iOS developer. "
+vowel=["a","e","i","o","u"]
+count=0
+for i in a.lower():
+    for j in vowel:
+        if i==j:
+            count+=1            
+                
+print(count)        
+      
+    
+
+
+
+
+   
