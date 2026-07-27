@@ -65,7 +65,45 @@
 # print(beatles)
 
 
-num=int(input("enter a number :"))
-# for j in range (1,11):
-#     print(f'{num}*{j}={num*j}')
+# num=int(input("enter a number :"))
+# # for j in range (1,11):
+# #     print(f'{num}*{j}={num*j}')
 
+# lst=[2,2,2,3,4,2,6,4,4,5,9]
+# new_list=[]
+# for index in lst:
+#     if index not in new_list:
+#         new_list.append(index)
+        
+    
+# print(new_list)   
+
+
+# my_list=[3,11,5,17,1,9,7,15,13]
+# largest_number=0
+
+# for i in my_list:
+#     if i>largest_number:
+#         largest_number=i
+# print("the largest no. is:",largest_number)        
+
+
+# my_list.sort()
+# print("the largest number is=",my_list[8])
+
+a="My name is Sanjay Singh Jadon and Iam iOS developer. "
+vowel=["a","e","i","o","u"]
+count=0
+for i in a.lower():
+    for j in vowel:
+        if i==j:
+            count+=1            
+                
+print(count)        
+      
+    
+
+
+
+
+   
