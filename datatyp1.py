@@ -1028,29 +1028,89 @@ index_inner(0-3)0 1 2 3
 #     return s
 # print(list_sum([5,4,3]))    
 
-def strange_list_fun(n):
-    strange_list=[]
-    for i in range(0,n):
-        strange_list.insert(0,i)
+# def strange_list_fun(n):
+#     strange_list=[]
+#     for i in range(0,n):
+#         strange_list.insert(0,i)
 
-    return strange_list
+#     return strange_list
 
-print(strange_list_fun(5))    
-
-
+# print(strange_list_fun(5))    
 
 
-    
+# def scope_test():
+#     x=123
+# scope_test() # in function we can acces the value of the x =123 but in outside the function we not accsee the value of x
+# print(x)
 
+# def function():
+#     print("Do I know that variable?",var)
+# var=1    
+# function()
+# print(var)    
 
+# var=2
+# def mult_by_var(x):
+#     return x*var
 
+# print(mult_by_var(7))
 
+# def mult(x):
+#     var=5       #shodowing var in local scope
+#     return x*var
+# print(mult(7))
 
+# def adding():
+#     var=7
+#     return x+var 
 
+# print(adding(7))# output =14
+# print(var)#  Error, because var is defined 
 
+# def my_function():
+#     global var
+#     var=2
+#     print("Do I know that variable?",var)
+# var=1    
+# my_function()    
+# print(var)
 
+# var=2
+# print(var)
 
+# def return_var():
+#     global var
+#     var=5
+#     return var
+# print(return_var())
+# print(var)
 
+# def my_function(n):
+#     print("I got",n)
+#     n+=1
+#     print("I have",n)
+
+# var=1
+# my_function(var)
+# print(var)
+
+def my_function(lst1,v):
+    print("print #1",lst1)
+    print("print #2",lst2)
+    print("v",v)
+    print("var",var)
+    del lst1[0]
+    lst1.append(4)
+    del v
+    # lst1=[0,1]
+    print("print #3",lst1)
+    print("print #4",lst2)
+    # print("v",v)
+    print("var",var)
+lst2=[2,3]
+var=2
+my_function(lst2,var)
+print("print #5",lst2)
 
   
     
