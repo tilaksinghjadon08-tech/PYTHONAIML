@@ -1094,23 +1094,103 @@ index_inner(0-3)0 1 2 3
 # my_function(var)
 # print(var)
 
-def my_function(lst1,v):
-    print("print #1",lst1)
-    print("print #2",lst2)
-    print("v",v)
-    print("var",var)
-    del lst1[0]
-    lst1.append(4)
-    del v
-    # lst1=[0,1]
-    print("print #3",lst1)
-    print("print #4",lst2)
-    # print("v",v)
-    print("var",var)
-lst2=[2,3]
-var=2
-my_function(lst2,var)
-print("print #5",lst2)
+# def my_function(lst1,v):
+#     print("print #1",lst1)
+#     print("print #2",lst2)
+#     print("v:",v)
+#     print("var:",var)
+#     del lst1[0]
+#     lst1.append(4)
+#     del v
+#     # lst1=[0,1]
+#     print("print #3",lst1)
+#     print("print #4",lst2)
+#     # print("v",v)
+#     print("var:",var)
+# lst2=[2,3]
+# var=2
+# my_function(lst2,var)
+# print("print #5",lst2)
 
-  
-    
+# tuple_1=(1,2,3,4)
+# tuple_2=1.,.2,.3,.4
+# print("tuple_1",tuple_1)
+# print("type of tuple_1:",type(tuple_1))
+# print("tuple_1",tuple_2)
+# print("type of tuple_2:",type(tuple_2))
+
+# empty_tuple=()
+# print("empty tuple:",empty_tuple)
+# print("type of empty_tuple:",type(empty_tuple))
+# one_element_tulpe=(1,)
+# print("one_element_tulpe",one_element_tulpe)
+# print("type of one_element_tulpe:",type(one_element_tulpe))
+# one_element_tulpe_2=1,
+# print("one_element_tulpe:",one_element_tulpe_2)
+# print("type of one_element_tulpe:",type(one_element_tulpe_2))
+
+
+# my_tuple=(1,10,100,1000)
+# my_tuple.append(10000)
+# del my_tuple[0]
+# my_tuple[1]=-10
+
+# my_tuple=(1,)
+# my_tuple_1=(2,)
+# new_tuple=my_tuple+my_tuple_1
+# print(new_tuple)
+# my_tuple_2=(2,)
+# new_tuple=my_tuple_2*2
+# print(new_tuple)
+
+
+
+# my_tuple=(1,10,100)
+# t1=my_tuple+(1000,10000)
+
+# t2=my_tuple*3
+
+# print(len(t2))
+# print(t1)
+# print(t2)
+# print(10 in my_tuple)
+# print(-10 not in my_tuple)
+
+# tuple_1=(1,2,3)
+# for elem in tuple_1:
+#     print(elem)
+
+# tuple_2=(1,2,3,4)
+# print(5 in tuple_2)
+# print(5 not in tuple_2)
+
+# tuple_3=(1,2,3,4)
+# print(len(tuple_3))
+# print(5 not in tuple_3)
+
+# tuple_4=tuple_1+tuple_2
+
+# tuple_5=tuple_3*2
+# print(tuple_4)
+# print(tuple_5)
+# print(tuple_5[0])
+# print(tuple_5[1])
+
+# my_tuple=tuple((1,2,"string"))
+# print(my_tuple)
+
+# my_list=[2,4,6]
+# print(my_list)
+# print(type(my_list))
+# tup=tuple(my_list)
+# print(tup)
+# print(type(tup))
+
+var=123
+
+t1=(1,)
+t2=(2,)
+t3=(3,var)
+
+t1,t2,t3=t2,t3,t1
+print(t1,t2,t3)
