@@ -1186,11 +1186,117 @@ index_inner(0-3)0 1 2 3
 # print(tup)
 # print(type(tup))
 
-var=123
+# var=123
 
-t1=(1,)
-t2=(2,)
-t3=(3,var)
+# t1=(1,)
+# t2=(2,)
+# t3=(3,var)
 
-t1,t2,t3=t2,t3,t1
-print(t1,t2,t3)
+# t1,t2,t3=t2,t3,t1
+# print(t1,t2,t3)
+
+
+# dictionary={
+#     "cat":"chat",
+#     "dog":"chien",
+#     "horse":"cheval"
+# }
+
+# phone_number={
+#     'boos': 1000000,
+#     'suzy': 2000000
+
+# }
+
+# empty_dictionary={}
+
+# print("dictionary",dictionary)
+# print("type(dictionary)",type(dictionary))
+# print("phone_number:",phone_number)
+# print("type(phone_number)",type(phone_number))
+# print("empty_dictionary:",empty_dictionary)
+# print("type(empty_dictionary):",type(empty_dictionary))
+
+# print(dictionary["cat"])
+# print(dictionary["horse"])
+
+# cat="horse"
+
+# Dog="dogkey"
+# my_dictionary={
+#     cat:"cat",
+#     Dog:"dog"
+# }
+
+
+# print(my_dictionary)
+# print(my_dictionary[cat])
+# print(type(my_dictionary[cat]))
+# print(my_dictionary["horse"])
+
+
+
+
+# dictionary={
+#     "cat":"chat",
+#     "dog":"chien",
+#     "horse":"cheval"
+# }
+
+# print(dictionary.items())
+# print(type(dictionary.items()))
+
+# for english,french in dictionary.items():
+#     print(english,"-->",french)
+
+# for french in dictionary.values():
+#     print(french)
+
+
+# keys=["cat","lion","horse"]
+
+# for key in keys:
+#     if key in dictionary:
+#         print(key,"-->",dictionary[key])
+#     else:
+#         print(key,"is not in dictionary")    
+
+# for key in dictionary.keys():
+#     # print(key)
+#     # print(dictionary[key])
+
+#     if key in dictionary:
+#         print(key,"-->",dictionary[key])
+#     else:
+#         print(key,"is not in dictionary")    
+
+pol_eng_dictionary={
+    "a":1,
+    "b":2,
+    "c":3
+}
+pol_eng_dictionary_copy=pol_eng_dictionary
+pol_eng_dictionary_copy2=pol_eng_dictionary.copy()
+
+print(pol_eng_dictionary)
+print(pol_eng_dictionary_copy)
+print(pol_eng_dictionary_copy2)
+
+pol_eng_dictionary["one"]=1
+
+print(pol_eng_dictionary)
+print(pol_eng_dictionary_copy)
+print(pol_eng_dictionary_copy2)
+
+pol_eng_dictionary["a"]="lock"
+item= pol_eng_dictionary["a"]
+print(item)
+print("pol_eng_dictionary:",pol_eng_dictionary)
+del pol_eng_dictionary["a"]
+print("pol_eng_dictionary:",pol_eng_dictionary)
+
+
+
+
+
+
